@@ -29,12 +29,6 @@
         </developer>
     </developers>
 
-    <scm>
-        <connection>scm:git:git://github.com/TheodoreBillotte/Shotcave-API.git</connection>
-        <developerConnection>scm:git:ssh://github.com:TheodoreBillotte/Shotcave-API.git</developerConnection>
-        <url>http://github.com/TheodoreBillotte/Shotcave-API</url>
-    </scm>
-
     <name>ShotcaveAPI</name>
 
     <properties>
