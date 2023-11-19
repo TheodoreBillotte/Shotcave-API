@@ -22,14 +22,10 @@
         <developer>
             <name>Theobosse</name>
             <email>theodore.billotte@epitech.eu</email>
-            <organization>Votre organisation</organization>
-            <organizationUrl>L'URL de votre organisation</organizationUrl>
         </developer>
         <developer>
             <name>Yolwoocle</name>
             <email>leobernard2015@hotmail.com</email>
-            <organization>Votre organisation</organization>
-            <organizationUrl>L'URL de votre organisation</organizationUrl>
         </developer>
     </developers>
 
@@ -38,17 +34,6 @@
         <developerConnection>scm:git:ssh://github.com:TheodoreBillotte/Shotcave-API.git</developerConnection>
         <url>http://github.com/TheodoreBillotte/Shotcave-API</url>
     </scm>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
 
     <name>ShotcaveAPI</name>
 
@@ -81,20 +66,6 @@
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                         </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
                     </execution>
                 </executions>
             </plugin>
