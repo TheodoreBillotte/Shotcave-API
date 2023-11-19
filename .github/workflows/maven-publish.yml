@@ -5,6 +5,8 @@ name: Maven Package
 
 permissions:
   contents: write
+  issues: write
+  deployments: write
 
 on:
   push:
