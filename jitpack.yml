@@ -1,5 +1,2 @@
 jdk:
   - openjdk16
-
-install:
-  - mvn clean install -Dmaven.javadoc.skip=true -DskipTests
