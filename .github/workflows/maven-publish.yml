@@ -3,6 +3,9 @@
 
 name: Maven Package
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ master ]
@@ -35,5 +38,3 @@ jobs:
       with:
         # Attachement des fichiers de build/artefacts à la release
         files: target/*.jar  # Modifier le chemin selon l'output de votre build
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
