@@ -6,7 +6,7 @@
 
     <groupId>fr.theobosse</groupId>
     <artifactId>ShotcaveAPI</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>v1.0.0</version>
     <packaging>jar</packaging>
 
     <url>https://github.com/TheodoreBillotte/Shotcave-API</url>
